@@ -51,25 +51,6 @@ A modern web application that tracks product prices across e-commerce platforms,
    npm start
    ```
 
-## 📊 Project Structure
-
-```
-e-commerce-price-tracker/
-├── client/                 # Frontend React application
-│   ├── public/
-│   └── src/
-│       ├── components/     # Reusable UI components
-│       ├── pages/          # Application pages
-│       ├── context/        # React Context providers
-│       └── utils/          # Utility functions
-├── server/                 # Backend Node.js application
-│   ├── controllers/        # Request handlers
-│   ├── models/             # Database models
-│   ├── routes/             # API routes
-│   └── config/             # Configuration files
-└── scripts/                # Utility scripts
-```
-
 ## 🔄 API Integration
 
 This project uses the Rainforest API for fetching product data from Amazon. You'll need to:
